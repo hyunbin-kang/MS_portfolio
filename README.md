@@ -32,23 +32,25 @@ Korean Society for Aeronautical and Space Science
 > ### Comparison of Flow Simulation over Low Reynolds Number Airfoil by Accuracy of PyFR
 >
 >> Intro : 
->> - In this study, aerodynamic investigation was conducted with Low Reynolds Number Airfoil of EFD-CFD workshop 5th case [*](https://efd-cfd.gitbook.io/efd-cfd-workshop). 
+>> - In this study, aerodynamic investigation was conducted with Low Reynolds Number Airfoil of EFD-CFD workshop 5th case [*](https://efd-cfd.gitbook.io/efd-cfd-workshop/case-5-lrn-airfoil). 
 >> - LRN airfoil has complex flow structure, so accurate computational is needed. 
 >> - In this study, We utilze the PyFR, a aerodynamic analysis framework using Large Eddy Simulation (LES)
 >
 >> Results :
 >>> Spanwise effect
 >>> - Shorter spanwise length case has pool results of lift coefficients.
->>>     <figure>
+>>>     <p align="center">
 >>>         <img src="image/KSAS2023_lift_coefficient.png" alt="image">
->>>         <figcaption><center> lift curve with several spanwise length </center></figcaption>
->>>     </figure>
+>>>         <br>
+>>>         <em> lift curve with several spanwise length </em>
+>>>     </p>
 >>>
 >>> - This result is caused by the 3-D effect of turbulent flow.
->>>     <figure>
->>>         <img src="image/KSAS2023_Q.gif" alt="image">
->>>         <figcaption><center> Q-criterion at angle of attack of 10 degree </center></figcaption>
->>>     </figure>
+>>>     <p align="center">
+>>>         <img src="image/KSAS2023_Q.gif" alt="image" width=700>
+>>>         <br>
+>>>         <em> Q-criterion at angle of attack of 10 degree </em>
+>>>     </p>
 >>
 >>> Laminar Separation Bubble (LSB)
 >>> - Low Reynolds number flow has a complex flow structure such as laminar separation, transition, reattachment etc.
@@ -70,26 +72,30 @@ International Conference of Spactral and High Order Method
 >> Results :
 >>> Non-linearity
 >>> - LSB's movement cause the non-linear aerodynamic characteristics
->>>     <figure>
+>>>     <p align="center">
 >>>         <img src="image/ICOSAHOM2023_nonlinearity.png" alt="imgage">
->>>         <figcaption><center> non-linearity of lift coefficient </center></figcaption>
->>>     </figure>
->>>     <figure>
+>>>         <br>
+>>>         <em> non-linearity of lift coefficient </em>
+>>>     </p>
+>>>     <p align="center">
 >>>         <img src="image/ICOSAHOM2023_x_vel1.png" alt="image">
->>>         <figcation><center> time-averaged x directional velocity contour </center></figcaption>
->>>     </figure>
->>>     <figure>
+>>>         <br>
+>>>         <figcation><center> time-averaged x directional velocity contour </em>
+>>>     </p>
+>>>     <p align="center">
 >>>         <img src="image/ICOSAHOM2023_pressure_plateau.png" alt="image">
->>>         <figcaption><center> time-averaged pressure coefficient distribution </center></center>
->>>     </figure>
+>>>         <br>
+>>>         <em> time-averaged pressure coefficient distribution </em>
+>>>     </p>
 >>
 >>> Stall structure :
 >>> - At high angle of attack region, LSB is genarated at leading edge of airfoil.
 >>> - Since the strong separation can't recover the pressure, full separation from LE to TE is captured.
->>>     <figure>
+>>>     <p align="center">
 >>>         <img src="image/ICOSAHOM2023_x_vel2.png" alt="image">
->>>         <figcaption><center> time-averaged x directional velocity contour at high angle of attack </center></figcaption>
->>>     </figure>
+>>>         <br>
+>>>         <em> time-averaged x directional velocity contour at high angle of attack </em>
+>>>     </p>
 >>
 >> Discussion :
 >>> effect of Spanwise length
