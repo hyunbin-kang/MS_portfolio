@@ -12,8 +12,8 @@
 > - Panel Methods
 >
 > **Education**
-> - Inha University, Department of Aerospace Engineering, Bachelor's Degree
-> - Inha University, Department of Aerospace Engineering, Master Course
+> - Inha University, Department of Aerospace Engineering, Bachelor's Degree (2017-2022)
+> - Inha University, Department of Aerospace Engineering, Master Course (2023-)
 >
 > **Email** : qls1455@gmail.com(personal), qls1455@inha.edu(education)
 >
